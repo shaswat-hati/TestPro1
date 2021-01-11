@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -15,16 +16,18 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
+			</plugin>
+
 			<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-surefire-plugin</artifactId>
-	<version>3.0.0-M5</version>
-		<configuration>
-			<suiteXmlFiles>
-				<suiteXmlFile>testng.xml</suiteXmlFile>
-			</suiteXmlFiles>
-		</configuration>
-</plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
 		</plugins>
 
 	</build>
@@ -42,7 +45,13 @@
 			<version>7.1.0</version>
 			<scope>test</scope>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.sikuli</groupId>
+			<artifactId>sikuli-api</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
 
 	</dependencies>
 
