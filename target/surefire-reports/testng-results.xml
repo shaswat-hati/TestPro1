@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="18155" started-at="2020-11-05T18:10:43 IST" finished-at="2020-11-05T18:11:01 IST">
+  <suite name="Surefire suite" duration-ms="72359" started-at="2020-12-29T16:44:58 IST" finished-at="2020-12-29T16:46:10 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="18155" started-at="2020-11-05T18:10:43 IST" finished-at="2020-11-05T18:11:01 IST">
+    <test name="Surefire test" duration-ms="72359" started-at="2020-12-29T16:44:58 IST" finished-at="2020-12-29T16:46:10 IST">
       <class name="com.testcases.qa.TestUrl">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.testcases.qa.TestUrl@6adede5]" name="init" is-config="true" duration-ms="5687" started-at="2020-11-05T18:10:43 IST" finished-at="2020-11-05T18:10:49 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testcases.qa.TestUrl@3c0f93f1]" name="init" is-config="true" duration-ms="52429" started-at="2020-12-29T16:44:58 IST" finished-at="2020-12-29T16:45:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.testcases.qa.TestUrl@6adede5]" name="checkUrl" duration-ms="12460" started-at="2020-11-05T18:10:49 IST" finished-at="2020-11-05T18:11:01 IST">
+        <test-method status="PASS" signature="handleMultiWin()[pri:0, instance:com.testcases.qa.TestUrl@3c0f93f1]" name="handleMultiWin" duration-ms="19908" started-at="2020-12-29T16:45:50 IST" finished-at="2020-12-29T16:46:10 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkUrl -->
+        </test-method> <!-- handleMultiWin -->
       </class> <!-- com.testcases.qa.TestUrl -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

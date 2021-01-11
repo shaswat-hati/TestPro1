@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19388" started-at="2020-11-04T06:59:51Z" finished-at="2020-11-04T07:00:10Z">
+  <suite name="Suite" duration-ms="44830" started-at="2021-01-11T07:49:01Z" finished-at="2021-01-11T07:49:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19388" started-at="2020-11-04T06:59:51Z" finished-at="2020-11-04T07:00:10Z">
+    <test name="Test" duration-ms="44830" started-at="2021-01-11T07:49:01Z" finished-at="2021-01-11T07:49:46Z">
       <class name="com.testcases.qa.TestUrl">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.testcases.qa.TestUrl@cc285f4]" name="init" is-config="true" duration-ms="5306" started-at="2020-11-04T12:29:51Z" finished-at="2020-11-04T12:29:56Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testcases.qa.TestUrl@4b9e13df]" name="init" is-config="true" duration-ms="27918" started-at="2021-01-11T13:19:01Z" finished-at="2021-01-11T13:19:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.testcases.qa.TestUrl@cc285f4]" name="checkUrl" duration-ms="13939" started-at="2020-11-04T12:29:56Z" finished-at="2020-11-04T12:30:10Z">
+        <test-method status="PASS" signature="handleMultiWin()[pri:0, instance:com.testcases.qa.TestUrl@4b9e13df]" name="handleMultiWin" duration-ms="16880" started-at="2021-01-11T13:19:29Z" finished-at="2021-01-11T13:19:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.qa.TestUrl@cc285f4]" name="tearDown" is-config="true" duration-ms="124" started-at="2020-11-04T12:30:10Z" finished-at="2020-11-04T12:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- handleMultiWin -->
       </class> <!-- com.testcases.qa.TestUrl -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
